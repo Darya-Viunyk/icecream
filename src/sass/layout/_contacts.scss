@@ -1,6 +1,6 @@
 .contacts {
-  margin-top: 0px;
-  padding-top: 0px;
+  margin-top: 0;
+  padding-top: 0;
 
   box-shadow: 0px 310px 0px 0px rgba(255, 255, 255, 1) inset;
 
@@ -14,6 +14,7 @@
     padding-top: 60px;
   }
 }
+
 .contacts__list {
   flex-direction: column;
   display: flex;
@@ -21,7 +22,7 @@
 
   align-items: center;
 
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -72,12 +73,6 @@
   line-height: 1.86;
   letter-spacing: 0.04em;
 
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   width: 80px;
-  //   height: 16px;
-
   background-color: #f0d1a5;
   border-radius: 4px;
 
@@ -94,17 +89,18 @@
 }
 
 .contacts__title {
+  font-weight: 500;
+  font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.04em;
   color: #000000;
   margin-bottom: 20px;
-  font-size: inherit;
-  font-weight: inherit;
 
   @include tablet {
     line-height: 1.6;
   }
 }
+
 .contacts__text {
   line-height: 1.5;
   color: #907e82;
@@ -121,6 +117,7 @@
     letter-spacing: 0.04em;
   }
 }
+
 .contacts__box {
   font-weight: 500;
   font-style: 12px;
@@ -136,12 +133,12 @@
     height: 173px;
     padding: 32px 0;
 
-    font-style: 14px;
+    font-size: 14px;
   }
   @include desktop {
     height: 196px;
 
-    font-style: 16px;
+    font-size: 16px;
   }
 }
 
@@ -153,6 +150,7 @@
     letter-spacing: 0.04em;
   }
 }
+
 .contacts__time {
   line-height: 1.86;
   color: #ffa5ba;
@@ -201,6 +199,7 @@
     }
   }
 }
+
 .button__box {
   margin: 0 auto;
   width: 280px;
@@ -240,6 +239,7 @@
     font-size: 16px;
   }
 }
+
 .button--red {
   margin-top: 32px;
   margin-bottom: 10px;
@@ -258,6 +258,7 @@
     margin-left: 13px;
   }
 }
+
 .button__icon-red {
   fill: rgba(212, 20, 67, 1);
   margin-left: 3px;
